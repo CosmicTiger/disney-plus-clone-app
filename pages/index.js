@@ -41,8 +41,6 @@ export const getStaticProps = async () => {
 const Home = (props) => {
   const { videos } = props
 
-  console.log(videos)
-
   return (
     <div>
       Hello
